@@ -157,7 +157,7 @@ const Portfolio = () => {
       description: 'A modern admin dashboard with real-time analytics, built with React and Chart.js.',
       image: '/mockup.jpeg',
       technologies: ['React', 'Tailwind', 'Chart.js'],
-      liveDemo: 'vortex-clothing-frontend.vrecel.app',
+      liveDemo: 'vortex-clothing-frontend.vercel.app',
       github: 'https://github.com/Dushan23340/vortex-ecommerce.git'
     },
     {
