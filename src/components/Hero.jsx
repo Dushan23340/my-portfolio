@@ -155,10 +155,10 @@ const Portfolio = () => {
       id: 1,
       title: 'E-Commerce Dashboard',
       description: 'A modern admin dashboard with real-time analytics, built with React and Chart.js.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
+      image: '/mockup.jpeg',
       technologies: ['React', 'Tailwind', 'Chart.js'],
-      liveDemo: '#',
-      github: '#'
+      liveDemo: 'vortex-clothing-frontend.vrecel.app',
+      github: 'https://github.com/Dushan23340/vortex-ecommerce.git'
     },
     {
       id: 2,
