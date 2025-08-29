@@ -154,7 +154,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'E-Commerce Dashboard',
-      description: 'A modern admin dashboard with real-time analytics, built with React and Chart.js.',
+      description: 'A modern admin dashboard with real-time analytics, built with React and Chart.js as part of my academic projects.',
       image: '/mockup.jpeg',
       technologies: ['React', 'Tailwind', 'Chart.js'],
       liveDemo: 'https://vortex-clothing-frontend.vercel.app',
@@ -162,19 +162,19 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'Collaborative task management tool with drag-and-drop functionality and team features.',
+      title: 'University Course Management System',
+      description: 'A web application for managing courses, students, and grades developed as part of my university coursework.',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop',
-      technologies: ['Vue.js', 'TypeScript', 'Vuetify'],
+      technologies: ['React', 'Node.js', 'MongoDB'],
       liveDemo: '#',
       github: '#'
     },
     {
       id: 3,
-      title: 'Weather Forecast App',
-      description: 'Beautiful weather app with location-based forecasts and animated weather icons.',
+      title: 'Personal Task Manager',
+      description: 'A task management application with drag-and-drop functionality, built to practice React and state management.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop',
-      technologies: ['JavaScript', 'SASS', 'Weather API'],
+      technologies: ['JavaScript', 'CSS', 'Local Storage'],
       liveDemo: '#',
       github: '#'
     }
@@ -183,37 +183,37 @@ const Portfolio = () => {
   const timeline = [
     {
       id: 1,
-      title: 'Senior Frontend Developer',
-      company: 'TechCorp Inc.',
-      period: '2023 - Present',
-      description: 'Leading frontend development for enterprise applications, mentoring junior developers, and implementing modern React architectures.',
-      icon: <Briefcase className="w-4 h-4" />,
+      title: 'BSc (Hons) in Information Technology',
+      company: 'SLIIT',
+      period: '2025 - Present',
+      description: 'Currently pursuing my undergraduate degree with a specialization in Information Technology, focusing on web technologies and software engineering principles.',
+      icon: <GraduationCap className="w-4 h-4" />,
       color: 'bg-blue-500'
     },
     {
       id: 2,
-      title: 'Frontend Developer',
-      company: 'StartupXYZ',
-      period: '2022 - 2023',
-      description: 'Built responsive web applications using Vue.js and Tailwind CSS, collaborated with design teams to implement pixel-perfect UIs.',
-      icon: <Code className="w-4 h-4" />,
+      title: 'Web Development Intern',
+      company: 'Tech Startup (Internship)',
+      period: 'Summer 2024',
+      description: 'Internship focused on frontend development using React and modern CSS frameworks. Gained hands-on experience in agile development.',
+      icon: <Briefcase className="w-4 h-4" />,
       color: 'bg-purple-500'
     },
     {
       id: 3,
-      title: 'Junior Web Developer',
-      company: 'WebStudio Agency',
-      period: '2021 - 2022',
-      description: 'Developed client websites using HTML, CSS, and JavaScript. Learned modern frameworks and best practices in web development.',
+      title: 'Frontend Development Course',
+      company: 'Online Certification',
+      period: '2023',
+      description: 'Completed comprehensive course on modern frontend development including HTML, CSS, JavaScript, and React.',
       icon: <Code className="w-4 h-4" />,
       color: 'bg-green-500'
     },
     {
       id: 4,
-      title: 'Computer Science Degree',
-      company: 'University of Technology',
-      period: '2018 - 2021',
-      description: 'Bachelor\'s degree in Computer Science with focus on web technologies and software engineering principles.',
+      title: 'Introduction to Information Technology',
+      company: 'University Course',
+      period: '2022 - 2023',
+      description: 'Foundation course covering programming fundamentals, data structures, and algorithms using Python.',
       icon: <GraduationCap className="w-4 h-4" />,
       color: 'bg-yellow-500'
     }
@@ -588,7 +588,7 @@ const Portfolio = () => {
               variants={letterAnimation}
             >
               <TextType
-                text={["Full-Stack Developer", "MERN & React Expert", "Creative Problem Solver", "Happy Coding!"]}
+                text={["Aspiring IT Professional", "Information Technology Student", "Web Developer Enthusiast", "Always Learning!"]}
                 typingSpeed={75}
                 pauseDuration={1500}
                 showCursor={true}
@@ -602,8 +602,8 @@ const Portfolio = () => {
               className="text-lg text-gray-400 max-w-xl leading-relaxed"
               variants={letterAnimation}
             >
-              I craft beautiful, responsive web experiences with modern technologies. 
-              Passionate about clean code, user experience, and bringing creative ideas to life.
+              I'm a passionate Computer Science undergraduate with a strong interest in web development. 
+              I enjoy creating responsive web applications and learning new technologies to solve real-world problems.
             </motion.p>
 
             {/* Enhanced Buttons */}
@@ -639,16 +639,16 @@ const Portfolio = () => {
               variants={letterAnimation}
             >
               <div className="text-center">
-                <div className="text-2xl font-bold text-blue-400">3+</div>
+                <div className="text-2xl font-bold text-blue-400">0</div>
                 <div className="text-sm text-gray-400">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-purple-400">50+</div>
+                <div className="text-2xl font-bold text-purple-400">5+</div>
                 <div className="text-sm text-gray-400">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-cyan-400">100%</div>
-                <div className="text-sm text-gray-400">Client Satisfaction</div>
+                <div className="text-2xl font-bold text-cyan-400">Always</div>
+                <div className="text-sm text-gray-400">Learning</div>
               </div>
             </motion.div>
           </motion.div>
@@ -662,10 +662,10 @@ const Portfolio = () => {
           >
             <ProfileCard
               name="Dushan Chamuditha"
-              title="Software Engineer"
+              title="Information Technology Student"
               handle="dushan_chamu"
-              status="Online"
-              contactText="Contact Me"
+              status="Available for Internships"
+              contactText="Get In Touch"
               avatarUrl={avatar}
               iconUrl={avatar}
               grainUrl={avatar}
@@ -728,13 +728,14 @@ const Portfolio = () => {
       >
         <h3 className="text-2xl font-semibold mb-4 text-blue-300">My Journey</h3>
         <p className="text-gray-400 mb-5 leading-relaxed">
-          I began as a designer intrigued by the web, then discovered the joy of coding.
-          Today I bridge the gap between design and development by building engaging,
-          accessible, and responsive UI/UX experiences.
+          I'm an Information Technology undergraduate student with a passion for web development and problem-solving.
+          My journey in programming began during my university studies, and I've been continuously expanding 
+          my skills through personal projects and online courses.
         </p>
         <p className="text-gray-400 leading-relaxed">
-          Outside of coding, I enjoy exploring new technologies, contributing to open source,
-          and sharing knowledge with the dev community.
+          I'm currently focused on building full-stack applications with modern web technologies and exploring 
+          various aspects of IT including software development, databases, and system design. I'm always eager 
+          to learn new technologies and contribute to meaningful projects.
         </p>
       </motion.div>
 
@@ -771,6 +772,21 @@ const Portfolio = () => {
       </motion.div>
     ))}
   </motion.div>
+  
+  {/* Learning Section */}
+  <div className="mt-8">
+    <h4 className="text-xl font-semibold mb-4 text-cyan-300">Currently Learning</h4>
+    <div className="flex flex-wrap gap-3">
+      {["TypeScript", "Next.js", "GraphQL", "Docker", "AWS"].map((tech, index) => (
+        <span 
+          key={index}
+          className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 px-3 py-1 rounded-full text-sm border border-blue-500/30"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+  </div>
 </motion.div>
 
     </div>
@@ -896,11 +912,11 @@ const Portfolio = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <div onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <div className="block text-sm font-medium text-gray-300 mb-2">
+                  <label className="block text-sm font-medium text-gray-300 mb-2">
                     Name
-                  </div>
+                  </label>
                   <input
                     type="text"
                     name="name"
@@ -908,12 +924,13 @@ const Portfolio = () => {
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
                     placeholder="Your name"
+                    required
                   />
                 </div>
                 <div>
-                  <div className="block text-sm font-medium text-gray-300 mb-2">
+                  <label className="block text-sm font-medium text-gray-300 mb-2">
                     Email
-                  </div>
+                  </label>
                   <input
                     type="email"
                     name="email"
@@ -921,12 +938,13 @@ const Portfolio = () => {
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
                     placeholder="your.email@example.com"
+                    required
                   />
                 </div>
                 <div>
-                  <div className="block text-sm font-medium text-gray-300 mb-2">
+                  <label className="block text-sm font-medium text-gray-300 mb-2">
                     Message
-                  </div>
+                  </label>
                   <textarea
                     name="message"
                     rows={5}
@@ -934,15 +952,16 @@ const Portfolio = () => {
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors resize-none"
                     placeholder="Your message here..."
+                    required
                   />
                 </div>
                 <button
-                  onClick={handleSubmit}
+                  type="submit"
                   className="w-full bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-3 rounded-lg font-semibold hover:scale-105 transition-transform"
                 >
                   Send Message
                 </button>
-              </div>
+              </form>
             </div>
             
             {/* Contact Info */}
@@ -983,7 +1002,7 @@ const Portfolio = () => {
                     </div>
                     <div>
                       <p className="font-medium">LinkedIn</p>
-                      <p className="text-gray-400">linkedin.com/in/Dushan Chamuditha</p>
+                      <p className="text-gray-400">https://linkedin.com/in/dushan-chamuditha</p>
                     </div>
                   </div>
                 </div>
@@ -1001,19 +1020,32 @@ const Portfolio = () => {
               © 2025 Dushan Chamuditha. All rights reserved.
             </div>
             <div className="flex space-x-6">
-              <a href="https://github.com/Dushan23340" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/Dushan23340" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="https://www.linkedin.com/in/dushan-chamuditha-1769021b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/dushan-chamuditha-1769021b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="https://x.com/dushcham?s=21" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://x.com/dushcham?s=21" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
                 <Twitter className="w-5 h-5" />
               </a>
             </div>
           </div>
         </div>
       </footer>
+
+      {/* WhatsApp Button - Fixed Position */}
+      <a
+        href="https://wa.me/+94770584222" // Replace with your actual WhatsApp number
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50 hover:scale-110"
+        aria-label="Contact via WhatsApp"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+      </a>
     </div>
   );
 };
